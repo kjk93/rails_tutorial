@@ -8,6 +8,7 @@ gem 'faker'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
+gem 'aws-sdk'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass'
@@ -63,7 +64,6 @@ group :development, :test do
  group :production do
  	gem 'pg'
  	gem 'rails_12factor'
- 	gem 'puma'
  end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
