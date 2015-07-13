@@ -332,7 +332,6 @@ DEPENDENCIES
   byebug
   carrierwave
   coffee-rails (~> 4.1.0)
-  excon (~> 0.42.0)
   faker
   fog
   guard
